@@ -20,6 +20,14 @@ Sample data is placed in `./data` directory and the structure of dir is:
             - 2015-16_shot_dashboard.json
     - gamelog.json
 ```
+
+Every file has different category of data:
+
+* `2015-16_defense_dashboard.json` contains all defense associated stats(/players/defense-*/)
+* `2015-16_general_dashboard.json` contains traditional, advanced, usage, scoring and misc stats.
+* `2015-16_play_types_dashboard.json` contains player play type stats.
+* `2015-16_shot_dashboard.json` contains all shooting stats.
+
 These dashboard file have same structure:
 
 ```json
@@ -35,7 +43,22 @@ These dashboard file have same structure:
 
 }
 ```
-* `2015-16_defense_dashboard.json` contains all defense associated stats
+
+The `gamelog.json` shows team stats of every games:
+
+```json
+{"SEASON_ID":"22015",
+"TEAM_ID":1610612765,
+"TEAM_ABBREVIATION":"DET",
+"TEAM_NAME":"Detroit Pistons",
+"GAME_ID":"0021500391",
+"GAME_DATE":"2015-12-18",
+"MATCHUP":"DET @ CHI",
+"WL":"W",
+// ... and other traditional stats of team such as assists and rebounds.
+}
+```
+
 ## Categories
 
 These are sub path of http://stats.nba.com/, so you could view the web version of stats by visiting the url. Team stats structure are same with player stats. The only difference is team stats path start with 'team' while player stats path with 'player'
