@@ -46,16 +46,17 @@ These dashboard file have same structure:
 
 The `gamelog.json` shows team stats of every games:
 
-```json
-{"SEASON_ID":"22015",
-"TEAM_ID":1610612765,
-"TEAM_ABBREVIATION":"DET",
-"TEAM_NAME":"Detroit Pistons",
-"GAME_ID":"0021500391",
-"GAME_DATE":"2015-12-18",
-"MATCHUP":"DET @ CHI",
-"WL":"W",
-// ... and other traditional stats of team such as assists and rebounds.
+```javascript
+{
+    "SEASON_ID":"22015",
+    "TEAM_ID":1610612765,
+    "TEAM_ABBREVIATION":"DET",
+    "TEAM_NAME":"Detroit Pistons",
+    "GAME_ID":"0021500391",
+    "GAME_DATE":"2015-12-18",
+    "MATCHUP":"DET @ CHI",
+    "WL":"W",
+    //... and other traditional stats of team such as assists and rebounds.
 }
 ```
 
