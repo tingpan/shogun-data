@@ -1,0 +1,2204 @@
+{
+  "/players/traditional/": {
+    "name": "Traditional",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "3PM": "3 Point Field Goals Made",
+      "3PA": "3 Point Field Goals Attempted",
+      "3P%": "3 Point Field Goals Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "OREB": "Offensive Rebounds",
+      "DREB": "Defensive Rebounds",
+      "REB": "Rebounds",
+      "AST": "Assists",
+      "TOV": "Turnovers",
+      "STL": "Steals",
+      "BLK": "Blocks",
+      "PF": "Personal Fouls",
+      "DD2": "Double doubles",
+      "TD3": "Triple doubles",
+      "PTS": "Points",
+      "+/-": "Plus Minus"
+    }
+  },
+  "/players/advanced/": {
+    "name": "Advanced",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "OffRtg": "Offensive Rating",
+      "DefRtg": "Defensive Rating",
+      "NetRtg": "Net Rating",
+      "AST%": "Assist Percentage",
+      "AST/TO": "Assist to Turnover Ratio",
+      "AST Ratio": "Assist Ratio",
+      "OREB%": "Offensive Rebound Percentage",
+      "DREB%": "Defensive Rebound Percentage",
+      "REB%": "Rebound Percentage",
+      "TO Ratio": "Turnover Ratio",
+      "eFG%": "Effective Field Goal Percentage",
+      "TS%": "True Shooting Percentage",
+      "USG%": "Usage Percentage",
+      "PACE": "Pace",
+      "PIE": "Player Impact Estimate"
+    }
+  },
+  "/players/misc/": {
+    "name": "Misc",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "PTS OFF TO": "Points Off Turnovers",
+      "2nd PTS": "Second Chance Points",
+      "FBPs": "Fast Break Points",
+      "PITP": "Points in the Paint",
+      "Opp PTS OFF TO": "Opponent Points Off Turnovers",
+      "Opp 2nd PTS": "Opponent 2nd Chance Points",
+      "Opp FBPs": "Opponent Fast Break Points",
+      "Opp PITP": "Opponent Points in the Paint",
+      "BLK": "Blocks",
+      "BLKA": "Blocked Field Goal Attempts",
+      "PF": "Personal Fouls",
+      "PFD": "Personal Fouls Drawn"
+    }
+  },
+  "/players/scoring/": {
+    "name": "Scoring",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses        ",
+      "MIN": "Minutes Played",
+      "%FGA 2PT": "Percent of Field Goals Attempted (2 Pointers)",
+      "%FGA 3PT": "Percent of Field Goals Attempted (3 Pointers)",
+      "%PTS 2PT": "Percent of Points (2 Pointers)",
+      "%PTS 2PT MR": "Percent of Points (Mid-Range)",
+      "%PTS 3PT": "Percent of Points (3 Pointers)",
+      "%PTS FBPs": "Percent of Points (Fast Break Points)",
+      "%PTS FT": "Percent of Points (Free Throws)",
+      "%PTS OffTO": "Percent of Points (Off Turnovers)",
+      "%PTS PITP": "Percent of Points (Points in the Paint)",
+      "2FGM %AST": "Percent of 2 Point Field Goals Made Assisted",
+      "2FGM %UAST": "Percent of 2 Point Field Goals Made Unassisted",
+      "3FGM %AST": "Percent of 3 Point Field Goals Made Assisted",
+      "3FGM %UAST": "Percent of 3 Point Field Goals Made Unssisted",
+      "FGM %AST": "Percent of Point Field Goals Made Assisted",
+      "FGM %UAST": "Percent of Point Field Goals Made Unssisted"
+    }
+  },
+  "/players/usage/": {
+    "name": "Usage",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses        ",
+      "MIN": "Minutes Played",
+      "USG%": "Usage Percent",
+      "%FGM": "Percent of Team's Field Goals Made",
+      "%FGA": "Percent of Team's Field Goals Attemped",
+      "%3PM": "Percent of Team's 3PT Field Goals Made",
+      "%3PA": "Percent of Team's 3PT Field Goals Attemped",
+      "%FTM": "Percent of Team's Free Throws Made",
+      "%FTA": "Percent of Team's Free Throws Attemped",
+      "%OREB": "Percent of Team's Offensive Rebounds",
+      "%DREB": "Percent of Team's Defensive Rebounds",
+      "%REB": "Percent of Team's Total Rebounds",
+      "%AST": "Percent of Team's Assists",
+      "%TOV": "Percent of Team's Turnovers",
+      "%STL": "Percent of Team's Steals",
+      "%BLK": "Percent of Team's Blocks",
+      "%BLKA": "Percent of Team's Blocked Field Goal Attempts",
+      "%PF": "Percent of Team's Personal Fouls",
+      "%PFD": "Percent of Team's Personal Fouls Drawn",
+      "%PTS": "Percent of Team's Points"
+    }
+  },
+  "/players/opponent/": {
+    "name": "Opponent",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "OPP FGM": "Opponent's Field Goals Made",
+      "OPP FGA": "Opponent's Field Goals Attempted",
+      "OPP FG%": "Opponent's Field Goal Percentage",
+      "OPP 3PM": "Opponent's 3 Point Field Goals Made",
+      "OPP 3PA": "Opponent's 3 Point Field Goals Attempted",
+      "OPP 3P%": "Opponent's 3 Point Field Goal Percentage",
+      "OPP FTM": "Opponent's Free Throws Made",
+      "OPP FTA": "Opponent's Free Throws Attempted",
+      "OPP FT%": "Opponent's Free Throw Percentage",
+      "OPP OREB": "Opponent's Offensive Rebounds",
+      "OPP DREB": "Opponent's Defensive Rebounds",
+      "OPP REB": "Opponent's Rebounds",
+      "OPP AST": "Opponent's Assists",
+      "OPP TOV": "Opponent's Turnovers",
+      "OPP STL": "Opponent's Steals",
+      "OPP BLK": "Opponent's Blocks",
+      "OPP BLKA": "Opponent's Blocked Field Goal Attempts",
+      "OPP PF": "Opponent's Personal Fouls",
+      "OPP PFD": "Opponent's Personal Fouls Drawn",
+      "OPP PTS": "Opponent's Points",
+      "+/-": "Opponent's Plus/Minus"
+    }
+  },
+  "/players/defense/": {
+    "name": "Defense Overall",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "DEF RTG": "Defensive Rating",
+      "DREB": "Defensive Rebounds",
+      "DREB%": "Defensive Rebound Percentage",
+      "% DREB": "Percent of Team's Defensive Rebounds",
+      "STL": "Steals",
+      "STL%": "Percent of Team's Steals",
+      "BLK": "Blocks",
+      "%BLK": "Percent of Team's Blocks",
+      "OPP PTS OFF TOV": "Opponent Points Off Turnovers",
+      "OPP PTS 2ND CHANCE": "Opponent 2nd Chance Points",
+      "OPP PTS FB": "Opponent Fast Break Points",
+      "OPP PTS PAINT": "Opponent Points in the Paint",
+      "DEF WS": "Defensive Win Shares"
+    }
+  },
+  "/players/clutch-traditional/": {
+    "name": "Clutch Traditional",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "3PM": "3 Point Field Goals Made",
+      "3PA": "3 Point Field Goals Attempted",
+      "3P%": "3 Point Field Goals Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "OREB": "Offensive Rebounds",
+      "DREB": "Defensive Rebounds",
+      "REB": "Rebounds",
+      "AST": "Assists",
+      "TOV": "Turnovers",
+      "STL": "Steals",
+      "BLK": "Blocks",
+      "PF": "Personal Fouls",
+      "DD2": "Double Doubles",
+      "TD3": "Triple Doubles",
+      "PTS": "Points",
+      "+/-": "Plus/Minus"
+    }
+  },
+  "/players/clutch-advanced/": {
+    "name": "Clutch Advanced",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "OFFRTG": "Offensive Rating",
+      "DEFRTG": "Defensive Rating",
+      "NETRTG": "Net Rating",
+      "AST%": "Assist Percentage",
+      "AST/TO": "Assist to Turnover Ratio",
+      "AST RATIO": "Assist Ratio",
+      "OREB%": "Offensive Rebound Percentage",
+      "DREB%": "Defensive Rebound Percentage",
+      "REB%": "Rebound Percentage",
+      "TO RATIO": "Turnover Ratio",
+      "EFG%": "Effective Field Goal Percentage",
+      "TS%": "True Shooting Percentage",
+      "USG%": "Usage Percentage",
+      "PACE": "Pace",
+      "PIE": "Player Impact Estimate"
+    }
+  },
+  "/players/clutch-misc/": {
+    "name": "Clutch Misc",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "PTS OFF TO": "Points Off Turnovers",
+      "2ND PTS": "Second Chance Points",
+      "FBPS": "Fast Break Points",
+      "PITP": "Points in the Paint",
+      "OPP PTS OFF TO": "Opponent Points Off Turnovers",
+      "OPP 2ND PTS": "Opponent 2nd Chance Points",
+      "OPP FBPS": "Opponent Fast Break Points",
+      "OPP PITP": "Opponent Points in the Paint",
+      "BLK": "Blocks",
+      "BLKA": "Blocked Field Goal Attempts",
+      "PF": "Personal Fouls",
+      "PFD": "Personal Fouls Drawn"
+    }
+  },
+  "/players/clutch-scoring/": {
+    "name": "Clutch Scoring",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses        ",
+      "MIN": "Minutes",
+      "%FGA 2PT": "Percent of 2PT Field Goals Attempted",
+      "%FGA 3PT": "Percent of 3PT Field Goals Attempted",
+      "%PTS 2PT": "Percent of Points from 2PT",
+      "%PTS 2PT-MR": "Percent of Points from 2PT Mid Range",
+      "%PTS 3PT": "Percent of Points from 3PT",
+      "%PTS FBPS": "Percent of Points from Fast Breaks",
+      "%PTS FT": "Percent of Points from Free Throws",
+      "%PTS OFFTO": "Percent of Points Off Turnovers",
+      "%PTS PITP": "Percent of Points in the Paint",
+      "2FGM %AST": "Percent of 2PT Field Goals Assisted by Teammates",
+      "2FGM %UAST": "Percent of 2PT Field Goals Unassisted",
+      "3FGM %AST": "Percent of 3PT Field Goals Assisted by Teammates",
+      "3FGM %UAST": "Percent of 3PT Field Goals Unassisted",
+      "FGM %AST": "Percent of Field Goals Assisted by Teammates",
+      "FGM %UAST": "Percent of Field Goals Unassisted"
+    }
+  },
+  "/players/clutch-usage/": {
+    "name": "Clutch Usage",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses        ",
+      "MIN": "Minutes Played",
+      "USG%": "Usage Percent",
+      "%FGM": "Percent of Team's Field Goals Made",
+      "%FGA": "Percent of Team's Field Goals Attemped",
+      "%3PM": "Percent of Team's 3PT Field Goals Made",
+      "%3PA": "Percent of Team's 3PT Field Goals Attemped",
+      "%FTM": "Percent of Team's Free Throws Made",
+      "%FTA": "Percent of Team's Free Throws Attemped",
+      "%OREB": "Percent of Team's Offensive Rebounds",
+      "%DREB": "Percent of Team's Defensive Rebounds",
+      "%REB": "Percent of Team's Total Rebounds",
+      "%AST": "Percent of Team's Assists",
+      "%TOV": "Percent of Team's Turnovers",
+      "%STL": "Percent of Team's Steals",
+      "%BLK": "Percent of Team's Blocks",
+      "%BLKA": "Percent of Team's Block Attempts",
+      "%PF": "Percent of Team's Personal Fouls",
+      "%PFD": "Percent of Team's Personal Fouls Drawn",
+      "%PTS": "Percent of Team's Points"
+    }
+  },
+  "/players/clutch-opponent/": {
+    "name": "Clutch Opponent",
+    "desc": {}
+  },
+  "/players/defense-dash-overall/": {
+    "name": "Defending Shots Overall",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "Diff%": "Percentage Points Different"
+    }
+  },
+  "/players/defense-dash-3pt/": {
+    "name": "Defending 3 Pointers",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "Diff%": "Percentage Points Different"
+    }
+  },
+  "/players/defense-dash-2pt/": {
+    "name": "Defending 2 Pointers",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "Diff%": "Percentage Points Different"
+    }
+  },
+  "/players/defense-dash-lt6/": {
+    "name": "Defending Less Than 6 FT",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "Diff%": "Percentage Points Different"
+    }
+  },
+  "/players/defense-dash-lt10/": {
+    "name": "Defending Less Than 10 FT",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "Diff%": "Percentage Points Different"
+    }
+  },
+  "/players/defense-dash-gt15/": {
+    "name": "Defending More Than 15 FT",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "Diff%": "Percentage Points Different"
+    }
+  },
+  "/players/opponent-shooting/": {
+    "name": "Opponent Shooting",
+    "desc": {
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage"
+    }
+  },
+  "/players/isolation/#!/?OD=defensive": {
+    "name": "By Play Type",
+    "desc": {
+      "GP": "Games Played",
+      "Poss": "Possessions",
+      "Freq": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "FT Freq": "Free Throw Frequency",
+      "TO Freq": "Turnover Frequency",
+      "SF Freq": "Shooting Foul Frequency",
+      "And One Freq": "And One Frequency",
+      "Score Freq": "Score Frequency"
+    }
+  },
+  "/players/transition/": {
+    "name": "Transition",
+    "desc": {
+      "GP": "Games Played",
+      "Poss": "Possessions",
+      "Freq": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "FT Freq": "Free Throw Frequency",
+      "TO Freq": "Turnover Frequency",
+      "SF Freq": "Shooting Foul Frequency",
+      "And One Freq": "And One Frequency",
+      "Score Freq": "Score Frequency"
+    }
+  },
+  "/players/isolation/": {
+    "name": "Isolation",
+    "desc": {
+      "GP": "Games Played",
+      "Poss": "Possessions",
+      "Freq": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "FT Freq": "Free Throw Frequency",
+      "TO Freq": "Turnover Frequency",
+      "SF Freq": "Shooting Foul Frequency",
+      "And One Freq": "And One Frequency",
+      "Score Freq": "Score Frequency"
+    }
+  },
+  "/players/ball-handler/": {
+    "name": "Ball Handler",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/players/roll-man/": {
+    "name": "Roll Man",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/players/post-up/": {
+    "name": "Post Up",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/players/spot-up/": {
+    "name": "Spot Up",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/players/hand-off/": {
+    "name": "Hand Off",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency"
+    }
+  },
+  "/players/cut/": {
+    "name": "Cut",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency"
+    }
+  },
+  "/players/off-screen/": {
+    "name": "Off Screen",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency"
+    }
+  },
+  "/players/putbacks/": {
+    "name": "Put Backs",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency"
+    }
+  },
+  "/players/playtype-misc/": {
+    "name": "Misc",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency"
+    }
+  },
+  "/players/catch-shoot/": {
+    "name": "Catch \u0026 Shoot",
+    "desc": {
+      "GP": "Games Played",
+      "MIN": "Minutes",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "3PM": "3 Point Field Goals Made",
+      "3PA": "3 Point Field Goals Attempted",
+      "3P%": "3 Point Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage"
+    }
+  },
+  "/players/defensive-impact/": {
+    "name": "Defensive Impact",
+    "desc": {
+      "GP": "Games Played",
+      "MIN": "Minutes Played",
+      "W": "Wins",
+      "L": "Losses",
+      "STL": "Steals",
+      "BLK": "Blocks",
+      "DREB": "Defensive Rebounds",
+      "DFGM": "Field Goals Defended at Rim Made",
+      "DFGA": "Field Goals Defended at Rim Attempted",
+      "DFG%": "Field Goals Defended at Rim Percent"
+    }
+  },
+  "/players/drives/": {
+    "name": "Drives",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "DRIVES": "Drives",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "PTS": "Points",
+      "PTS%": "Points Percentage",
+      "PASS": "Pass",
+      "PASS%": "Pass Percentage",
+      "AST": "Assists",
+      "AST%": "Percent of Team's Assists",
+      "TO": "Turnovers",
+      "TOV%": "Percent of Team's Turnovers",
+      "PF": "Personal Fouls",
+      "PF%": "Percent of Team's Personal Fouls"
+    }
+  },
+  "/players/passing/": {
+    "name": "Passing",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "PASSES MADE": "Passes Made",
+      "PASSES RECEIVED": "Passes Received",
+      "AST": "Assists",
+      "FT AST": "Free Throw Assist",
+      "SECONDARY AST": "Secondary Assist",
+      "POTENTIAL AST": "Potential Assist",
+      "AST PTS CREATED": "Assist Points Created",
+      "AST ADJ": "Assist Adj",
+      "AST TO PASS%": "Assist-to-Pass Percentage",
+      "AST TO PASS% ADJ": "Assist-to-Pass Percentage Adj"
+    }
+  },
+  "/players/touches/": {
+    "name": "Touches",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "PTS": "Points",
+      "TOUCHES": "Touches",
+      "FRONT CT TOUCHES": "Front Court Touches",
+      "TIME OF POSS": "Time Of Possession",
+      "AVG SEC PER TOUCH": "Avg Seconds Per Touch",
+      "AVG DRIB PER TOUCH": "Avg Dribbles Per Touch",
+      "PTS PER TOUCH": "Points Per Touch",
+      "ELBOW TOUCHES": "Elbow Touches",
+      "POST TOUCHES": "Post Touches",
+      "PAINT TOUCHES": "Paint Touches",
+      "PTS PER ELBOW TOUCH": "Points Per Elbow Touch",
+      "PTS PER POST TOUCH": "Points Per Post Touch",
+      "PTS PER PAINT TOUCH": "Points Per Paint Touch"
+    }
+  },
+  "/players/pullup/": {
+    "name": "Pull Up Shooting",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Made Attemped",
+      "FG%": "Field Goal Percentage",
+      "3PM": "3 Point Field Goals Made",
+      "3PA": "3 Point Field Goals Attempted",
+      "3P%": "3 Point Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage"
+    }
+  },
+  "/players/rebounding/": {
+    "name": "Rebounding",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "REB": "Rebounds",
+      "CONTESTED REB": "Contested Rebounds",
+      "UNCONTESTED REB": "Uncontested Rebounds",
+      "CONTESTED REB%": "Contested Rebound Percentage",
+      "REB CHANCES": "Rebound Chances",
+      "REB CHANCE%": "Rebound Chance Percentage",
+      "DEFERRED REB CHANCES": "Deferred Rebound Chances",
+      "ADJUSTED REB CHANCE%": "Adjusted Rebound Chance Percentage",
+      "AVG REB DISTANCE": "Average Rebound Distance"
+    }
+  },
+  "/players/offensive-rebounding/": {
+    "name": "Offensive Rebounding",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "OREB": "Offensive Rebounds",
+      "CONTESTED OREB": "Contested Offensive Rebounds",
+      "UNCONTESTED OREB": "Uncontested Offensive Rebounds",
+      "CONTESTED OREB%": "Contested Offensive Rebound Percentage",
+      "OREB CHANCES": "Offensive Rebound Chances",
+      "OREB CHANCE%": "Offensive Rebound Chance Percentage",
+      "DEFERRED OREB CHANCES": "Deferred Offensive Rebound Chances",
+      "ADJUSTED OREB CHANCE%": "Adjusted Offensive Rebound Chance Percentage",
+      "AVG OREB DISTANCE": "Average Offensive Rebound Distance"
+    }
+  },
+  "/players/defensive-rebounding/": {
+    "name": "Defensive Rebounding",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "DREB": "Defensive Rebounds",
+      "CONTESTED DREB": "Contested Defensive Rebounds",
+      "UNCONTESTED DREB": "Uncontested Defensive Rebounds",
+      "CONTESTED DREB%": "Contested Defensive Rebound Percentage",
+      "DREB CHANCES": "Defensive Rebound Chances",
+      "DREB CHANCE%": "Defensive Rebound Chance Percentage",
+      "DEFERRED DREB CHANCES": "Deferred Defensive Rebound Chances",
+      "ADJUSTED DREB CHANCE%": "Adjusted Defensive Rebound Chance Percentage",
+      "AVG DREB DISTANCE": "Average Defensive Rebound Distance"
+    }
+  },
+  "/players/shooting-efficiency/": {
+    "name": "Shooting Efficiency",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "PTS": "Points",
+      "DRIVE PTS": "Drive Points",
+      "DRIVE FG%": "Drive Field Goal Percentage",
+      "CATCH SHOOT PTS": "Catch Shoot Points",
+      "CATCH SHOOT FG%": "Catch Shoot Field Goal Percentage",
+      "PULL UP PTS": "Pull Up Points",
+      "PULL UP FG%": "Pull Up Field Goal Percentage",
+      "PAINT TOUCH PTS": "Paint Touch Points",
+      "PAINT TOUCH FG%": "Paint Touch Field Goal Percentage",
+      "POST TOUCH PTS": "Post Touch Points",
+      "POST TOUCH FG%": "Post Touch Field Goal Percentage",
+      "ELBOW TOUCH PTS": "Elbow Touch Points",
+      "ELBOW TOUCH FG%": "Elbow Touch Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage"
+    }
+  },
+  "/players/speed-distance/": {
+    "name": "Speed \u0026 Distance",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "DIST. FEET": "Distance Feet",
+      "DIST. MILES": "Distance Miles",
+      "DIST. MILES OFF": "Distance Miles Offense",
+      "DIST. MILES DEF": "Distance Miles Defense",
+      "AVG SPEED": "Average Speed",
+      "AVG SPEED OFF": "Average Speed Offense",
+      "AVG SPEED DEF": "Average Speed Defense"
+    }
+  },
+  "/players/elbow-touch/": {
+    "name": "Elbow Touches",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "TOUCHES": "Touches",
+      "ELBOW TOUCHES": "Elbow Touches",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "PTS": "Points",
+      "PTS%": "Points Percentage",
+      "PASS": "Pass",
+      "PASS%": "Pass Percentage",
+      "AST": "Assists",
+      "AST%": "Percent of Team's Assists",
+      "TO": "Turnovers",
+      "TOV%": "Percent of Team's Turnovers",
+      "PF": "Personal Fouls",
+      "PF%": "Percent of Team's Personal Fouls"
+    }
+  },
+  "/players/post-touch/": {
+    "name": "Post Touches",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "Touches": "Touches",
+      "Post Touches": "Post Touches",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "PTS": "Points",
+      "PTS%": "Points Percentage",
+      "PASS": "Pass",
+      "PASS%": "Pass Percentage",
+      "AST": "Assists",
+      "AST%": "Percent of Team's Assists",
+      "TO": "Turnovers",
+      "TOV%": "Percent of Team's Turnovers",
+      "PF": "Personal Fouls",
+      "PF%": "Percent of Team's Personal Fouls"
+    }
+  },
+  "/players/paint-touch/": {
+    "name": "Paint Touches",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "Touches": "Touches",
+      "Paint Touches": "Paint Touches",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "PTS": "Points",
+      "PTS%": "Points Percentage",
+      "PASS": "Pass",
+      "PASS%": "Pass Percentage",
+      "AST": "Assists",
+      "AST%": "Percent of Team's Assists",
+      "TO": "Turnovers",
+      "TOV%": "Percent of Team's Turnovers",
+      "PF": "Personal Fouls",
+      "PF%": "Percent of Team's Personal Fouls"
+    }
+  },
+  "/players/shots-general/": {
+    "name": "Shots by General Range",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/players/shots-shotclock/": {
+    "name": "Shots by Shotclock",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/players/shots-dribbles/": {
+    "name": "Shots by Dribbles",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/players/shots-touch-time/": {
+    "name": "Shots by Touch Time",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/players/shots-closest-defender/": {
+    "name": "Shots by Closest Defender",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/players/shots-closest-defender-10/": {
+    "name": "Shots by Closest Defender (+10 FT)",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/players/shooting/": {
+    "name": "Shooting",
+    "desc": {
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage"
+    }
+  },
+  "/team/#!/{{ t.id }}": {
+    "name": "{{ t.city }} {{ t.name }}"
+  },
+  "/teams/traditional/": {
+    "name": "Traditional",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "WIN%": "Win Percentage",
+      "MIN": "Minutes Played",
+      "FGM": "Field Goalds Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "3PM": "3 Point Field Goals Made",
+      "3PA": "3 Point Field Goals Attempted",
+      "3P%": "3 Point Field Goals Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "OREB": "Offensive Rebounds",
+      "DREB": "Defensive Rebounds",
+      "REB": "Rebounds",
+      "AST": "Assists",
+      "TOV": "Turnovers",
+      "STL": "Steals",
+      "BLK": "Blocks",
+      "BLKA": "Blocked Field Goal Attempts",
+      "PF": "Personal Fouls",
+      "PFD": "Personal Fouls Drawn",
+      "PTS": "Points",
+      "+/-": "Plus Minus"
+    }
+  },
+  "/teams/advanced/": {
+    "name": "Advanced",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "OFFRTG": "Offensive Rating",
+      "DEFRTG": "Defensive Rating",
+      "NETRTG": "Net Rating",
+      "AST%": "Assist Percentage",
+      "AST/TO": "Assist to Turnover Ratio",
+      "AST RATIO": "Assist Ratio",
+      "OREB%": "Offensive Rebound Percentage",
+      "DREB%": "Defensive Rebound Percentage",
+      "REB%": "Rebound Percentage",
+      "TOV%": "Turnover Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "TS%": "True Shooting Percentage",
+      "PACE": "Pace",
+      "PIE": "Player Impact Estimate"
+    }
+  },
+  "/teams/misc/": {
+    "name": "Misc",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "PTS OFF TO": "Points off Turnovers",
+      "2ND PTS": "2nd Chance Points",
+      "FBPS": "Fast Break Points",
+      "PITP": "Points in the Paint",
+      "OPP PTS OFF TO": "Opponent Points off Turnovers",
+      "OPP 2ND PTS": "Opponent's 2nd Chance Points",
+      "OPP FBPS": "Opponent's Fast Break Points",
+      "OPP PITP": "Opponent's Points in the Paint"
+    }
+  },
+  "/teams/four-factors/": {
+    "name": "Four Factors",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "WIN%": "Win Percentage",
+      "MIN": "Minutes Played",
+      "EFG%": "Effective Field Goal Percentage",
+      "FTA RATE": "Free Throw Attempt Rate",
+      "TOV%": "Turnover Percentage",
+      "OREB%": "Offensive Rebound Percentage",
+      "OPP EFG%": "Opponent's Effective Field Goal Percentage",
+      "OPP FTA RATE": "Opponent's Free Throw Attempted Rate",
+      "OPP TOV%": "Opponent's Turnover Percentage",
+      "OPP OREB%": "Opponent's Offensive Rebound Rate"
+    }
+  },
+  "/teams/scoring/": {
+    "name": "Scoring",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "%FGA 2PT": "Percent of Field Goals Attempted (2 Pointers)",
+      "%FGA 3PT": "Percent of Field Goals Attempted (3 Pointers)",
+      "%PTS 2PT": "Percent of Points (2 Pointers)",
+      "%PTS 2PT-MR": "Percent of Points (Mid-Range)",
+      "%PTS 3PT": "Percent of Points (3 Pointers)",
+      "%PTS FBPS": "Percent of Points (Fast Break Points)",
+      "%PTS FT": "Percent of Points (Free Throws)",
+      "%PTS OFFTO": "Percent of Points (Off Turnovers)",
+      "%PTS PITP": "Percent of Points (Points in the Paint)",
+      "2FGM %AST": "Percent of 2 Point Field Goals Made Assisted",
+      "2FGM %UAST": "Percent of 2 Point Field Goals Made Unassisted",
+      "3FGM %AST": "Percent of 3 Point Field Goals Made Assisted",
+      "3FGM %UAST": "Percent of 3 Point Field Goals Made Unssisted",
+      "FGM %AST": "Percent of Point Field Goals Made Assisted",
+      "FGM %UAST": "Percent of Point Field Goals Made Unssisted"
+    }
+  },
+  "/teams/opponent/": {
+    "name": "Opponent",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "OPP FGM": "Opponent's Field Goals Made",
+      "OPP FGA": "Opponent's Field Goals Attempted",
+      "OPP FG%": "Opponent's Field Goal Percentage",
+      "OPP 3PM": "Opponent's 3 Point Field Goals Made",
+      "OPP 3PA": "Opponent's 3 Point Field Goals Attempted",
+      "OPP 3P%": "Opponent's 3 Point Field Goal Percentage",
+      "OPP FTM": "Opponent's Free Throws Made",
+      "OPP FTA": "Opponent's Free Throws Attempted",
+      "OPP FT%": "Opponent's Free Throw Percentage",
+      "OPP OREB": "Opponent's Offensive Rebounds",
+      "OPP DREB": "Opponent's Defensive Rebounds",
+      "OPP REB": "Opponent's Rebounds",
+      "OPP AST": "Opponent's Assists",
+      "OPP TOV": "Opponent's Turnovers",
+      "OPP STL": "Opponent's Steals",
+      "OPP BLK": "Opponent's Blocks",
+      "OPP BLKA": "Opponent's Blocked Field Goal Attempts",
+      "OPP PF": "Opponent's Personal Fouls",
+      "OPP PFD": "Opponent's Personal Drawn",
+      "OPP PTS": "Opponent's Points",
+      "+/-": "Opponent's Plus/Minus"
+    }
+  },
+  "/teams/defense/": {
+    "name": "Defense Overall",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "DEF RTG": "Defensive Rating",
+      "DREB": "Defensive Rebounds",
+      "DREB%": "Defensive Rebound Percentage",
+      "STL": "Steals",
+      "BLK": "Blocks",
+      "OPP PTS OFF TOV": "Opponent Points Off Turnovers",
+      "OPP PTS 2ND CHANCE": "Opponent 2nd Chance Points",
+      "OPP PTS FB": "Opponent Fast Break Points",
+      "OPP PTS PAINT": "Opponent Points in the Paint"
+    }
+  },
+  "/teams/clutch-traditional/": {
+    "name": "Clutch Traditional",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "WIN%": "Win Percentage",
+      "MIN": "Minutes Played",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "3PM": "3 Point Field Goals Made",
+      "3PA": "3 Point Field Goals Attempted",
+      "3P%": "3 Point Field Goals Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "OREB": "Offensive Rebounds",
+      "DREB": "Defensive Rebounds",
+      "REB": "Rebounds",
+      "AST": "Assists",
+      "TOV": "Turnovers",
+      "STL": "Steals",
+      "BLK": "Blocks",
+      "BLKA": "Blocked Field Goal Attempts",
+      "PF": "Personal Fouls",
+      "PFD": "Personal Fouls Drawn",
+      "PTS": "Points",
+      "+/-": "Plus Minus"
+    }
+  },
+  "/teams/clutch-advanced/": {
+    "name": "Clutch Advanced",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "OFFRTG": "Offensive Rating",
+      "DEFRTG": "Defensive Rating",
+      "NETRTG": "Net Rating",
+      "AST%": "Assist Percentage",
+      "AST/TO": "Assist to Turnover Ratio",
+      "AST RATIO": "Assist Ratio",
+      "OREB%": "Offensive Rebounding Percentage",
+      "DREB%": "Defensive Rebound Percentage",
+      "REB%": "Rebound Percentage",
+      "TOV%": "Turnover Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "TS%": "True Shooting Percentage",
+      "PACE": "Pace",
+      "PIE": "Player Impact Estimate"
+    }
+  },
+  "/teams/clutch-misc/": {
+    "name": "Clutch Misc",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "PTS OFF TO": "Points off Turnovers",
+      "2ND PTS": "2nd Chance Points",
+      "FBPS": "Fast Break Points",
+      "PITP": "Points in the Paint",
+      "OPP PTS OFF TO": "Opponent Points off Turnovers",
+      "OPP 2ND PTS": "Opponent 2nd Chance Points",
+      "OPP FBPS": "Opponent Fast Break Points",
+      "OPP PITP": "Opponent Points in the Paint"
+    }
+  },
+  "/teams/clutch-four-factors/": {
+    "name": "Clutch Four Factors",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "WIN%": "Win Percentage",
+      "MIN": "Minutes Played",
+      "EFG%": "Effective Field Goal Percentage",
+      "FTA Rate": "Free Throw Attempt Rate",
+      "TOV%": "Turnover Percentage",
+      "OREB%": "Offensive Rebound Percentage",
+      "OPP EFG%": "Opponent's Effective Field Goal Percentage",
+      "OPP FTA RATE": "Opponent's Free Throw Attempt Rate",
+      "OPP TOV%": "Opponent's Turnover Percentage",
+      "OPP OREB%": "Opponent's Offensive Rebound Rate"
+    }
+  },
+  "/teams/clutch-scoring/": {
+    "name": "Clutch Scoring",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "%FGA 2PT": "Percent of Field Goals Attempted (2 Pointers)",
+      "%FGA 3PT": "Percent of Field Goals Attempted (3 Pointers)",
+      "%PTS 2PT": "Percent of Points (2 Pointers)",
+      "%PTS 2PT-MR": "Percent of Points (Mid-Range)",
+      "%PTS 3PT": "Percent of Points (3 Pointers)",
+      "%PTS FBPS": "Percent of Points (Fast Break Points)",
+      "%PTS FT": "Percent of Points (Free Throws)",
+      "%PTS OFFTO": "Percentage of Points (Off Turnovers)",
+      "%PTS PITP": "Percent of Points (Points in the Paint)",
+      "2FGM %AST": "Percent of 2 Point Field Goals Made Assisted",
+      "2FGM %UAST": "Percent of 2 Point Field Goals Made Unassisted",
+      "3FGM %AST": "Percent of 3 Point Field Goals Made Assisted",
+      "3FGM %UAST": "Percent of 3 Point Field Goals Made Unssisted",
+      "FGM %AST": "Percent of Field Goals Made Assisted",
+      "FGM %UAST": "Percent of Field Goals Made Unssisted"
+    }
+  },
+  "/teams/clutch-opponent/": {
+    "name": "Clutch Opponent",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes Played",
+      "OPP FGM": "Opponent's Field Goals Made",
+      "OPP FGA": "Opponent's Field Goals Attempted",
+      "OPP FG%": "Opponent's Field Goal Percentage",
+      "OPP 3PM": "Opponent's 3 Point Field Goals Made",
+      "OPP 3PA": "Opponent's 3 Point Field Goals Attempted",
+      "OPP 3P%": "Opponent's 3 Point Field Goal Percentage",
+      "OPP FTM": "Opponent's Free Throws Made",
+      "OPP FTA": "Opponent's Free Throws Attempted",
+      "OPP FT%": "Opponent's Free Throw Percentage",
+      "OPP OREB": "Opponent's Offensive Rebounds",
+      "OPP DREB": "Opponent's Defensive Rebounds",
+      "OPP REB": "Opponent's Rebounds",
+      "OPP AST": "Opponent's Assists",
+      "OPP TOV": "Opponent's Turnovers",
+      "OPP STL": "Opponent's Steals",
+      "OPP BLK": "Opponent's Blocks",
+      "OPP BLKA": "Opponent's Blocked Field Goal Attempts",
+      "OPP PF": "Opponent's Personal Fouls",
+      "OPP PFD": "Opponent's Personal Fouls Drawn",
+      "OPP PTS": "Opponent's Points",
+      "+/-": "Opponent's Plus/Minus"
+    }
+  },
+  "/teams/defense-dash-overall/": {
+    "name": "Defending Shots Overall",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Made",
+      "DFGA": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "DIFF%": "Percentage Points Different"
+    }
+  },
+  "/teams/defense-dash-3pt/": {
+    "name": "Defending 3 Pointers",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Made",
+      "DFGA": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "DIFF%": "Percentage Points Different"
+    }
+  },
+  "/teams/defense-dash-2pt/": {
+    "name": "Defending 2 Pointers",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Made",
+      "DFGA": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "DIFF%": "Percentage Points Different"
+    }
+  },
+  "/teams/defense-dash-lt6/": {
+    "name": "Defending Less Than 6 FT",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Made",
+      "DFGA": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "DIFF%": "Percentage Points Different"
+    }
+  },
+  "/teams/defense-dash-lt10/": {
+    "name": "Defending Less Than 10 FT",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Made",
+      "DFGA": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "DIFF%": "Percentage Points Different"
+    }
+  },
+  "/teams/defense-dash-gt15/": {
+    "name": "Defending More Than 15 FT",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "FREQ": "Frequency",
+      "DFGM": "Defended Field Goals Made",
+      "DFGA": "Defended Field Goals Attempted",
+      "DFG%": "Defended Field Goal Percentage",
+      "FG%": "Field Goal Percentage",
+      "DIFF%": "Percentage Points Different"
+    }
+  },
+  "/teams/opponent-shooting/": {
+    "name": "Overall Opponent Shooting",
+    "desc": {
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage"
+    }
+  },
+  "/teams/isolation/#!/?OD=defensive": {
+    "name": "By Play Type",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/transition/": {
+    "name": "Transition",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/isolation/": {
+    "name": "Isolation",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/ball-handler/": {
+    "name": "Ball Handler",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/roll-man/": {
+    "name": "Roll Man",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/post-up/": {
+    "name": "Post Up",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/spot-up/": {
+    "name": "Spot Up",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/hand-off/": {
+    "name": "Hand Off",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/cut/": {
+    "name": "Cut",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/off-screen/": {
+    "name": "Off Screen",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/putbacks/": {
+    "name": "Put Backs",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency",
+      "PERCENTILE": "Percentile"
+    }
+  },
+  "/teams/playtype-misc/": {
+    "name": "Misc",
+    "desc": {
+      "GP": "Games Played",
+      "POSS": "Possessions",
+      "FREQ": "Frequency",
+      "PPP": "Points Per Possession",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage",
+      "FT FREQ": "Free Throw Frequency",
+      "TO FREQ": "Turnover Frequency",
+      "SF FREQ": "Shooting Foul Frequency",
+      "AND ONE FREQ": "And One Frequency",
+      "SCORE FREQ": "Score Frequency"
+    }
+  },
+  "/teams/catch-shoot/": {
+    "name": "Catch \u0026 Shoot",
+    "desc": {
+      "GP": "Games Played",
+      "MIN": "Minutes",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Made Attemped",
+      "FG%": "Field Goal Percentage",
+      "3PM": "3 Point Field Goals Made",
+      "3PA": "3 Point Field Goals Attempted",
+      "3P%": "3 Point Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage"
+    }
+  },
+  "/teams/defensive-impact/": {
+    "name": "Defensive Impact",
+    "desc": {
+      "GP": "Games Played",
+      "MIN": "Minutes Played",
+      "W": "Wins",
+      "L": "Losses",
+      "STL": "Steals",
+      "BLK": "Blocks",
+      "DREB": "Defensive Rebounds",
+      "DFGM": "Field Goals Defended at Rim Made",
+      "DFGA": "Field Goals Defended at Rim Attempted",
+      "DFG%": "Field Goals Defended at Rim Percent"
+    }
+  },
+  "/teams/drives/": {
+    "name": "Drives",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "DRIVES": "Drives",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "PTS": "Points",
+      "PTS%": "Points Percentage",
+      "PASS": "Pass",
+      "PASS%": "Pass Percentage",
+      "AST": "Assists",
+      "AST%": "Percent of Team's Assists",
+      "TO": "Turnovers",
+      "TOV%": "Percent of Team's Turnovers",
+      "PF": "Personal Fouls",
+      "PF%": "Percent of Team's Personal Fouls"
+    }
+  },
+  "/teams/passing/": {
+    "name": "Passing",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "PASSES MADE": "Passes Made",
+      "PASSES RECEIVED": "Passes Received",
+      "AST": "Assists",
+      "FT AST": "Free Throw Assist",
+      "SECONDARY AST": "Secondary Assist",
+      "POTENTIAL AST": "Potential Assist",
+      "AST PTS CREATED": "Assist Points Created",
+      "AST ADJ": "Assist Adj",
+      "AST TO PASS%": "Assist to Pass Percentage",
+      "AST TO PASS% ADJ": "Assist to Pass Percentage Adj"
+    }
+  },
+  "/teams/touches/": {
+    "name": "Touches",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "PTS": "Points",
+      "TOUCHES": "Touches",
+      "FRONT CT TOUCHES": "Front Court Touches",
+      "TIME OF POSS": "Time Of Possession",
+      "AVG SEC PER TOUCH": "Avg Seconds Per Touch",
+      "AVG DRIB PER TOUCH": "Avg Dribbles Per Touch",
+      "PTS PER TOUCH": "Points Per Touch",
+      "ELBOW TOUCHES": "Elbow Touches",
+      "POST TOUCHES": "Post Touches",
+      "PAINT TOUCHES": "Paint Touches",
+      "PTS PER ELBOW TOUCH": "Points Per Elbow Touch",
+      "PTS PER POST TOUCH": "Points Per Post Touch",
+      "PTS PER PAINT TOUCH": "Points Per Paint Touch"
+    }
+  },
+  "/teams/pullup/": {
+    "name": "Pull Up Shooting",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "PTS": "Points",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Made Attemped",
+      "FG%": "Field Goal Percentage",
+      "3PM": "3 Point Field Goals Made",
+      "3PA": "3 Point Field Goals Attempted",
+      "3P%": "3 Point Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage"
+    }
+  },
+  "/teams/rebounding/": {
+    "name": "Rebounding",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "REB": "Rebounds",
+      "CONTESTED REB": "Contested Rebounds",
+      "UNCONTESTED REB": "Uncontested Rebounds",
+      "CONTESTED REB%": "Contested Rebound Percentage",
+      "REB CHANCES": "Rebound Chances",
+      "REB CHANCE%": "Rebound Chance Percentage",
+      "DEFERRED REB CHANCES": "Deferred Rebound Chances",
+      "ADJUSTED REB CHANCE%": "Adjusted Rebound Chance Percentage",
+      "AVG REB DISTANCE": "Average Rebound Distance"
+    }
+  },
+  "/teams/offensive-rebounding/": {
+    "name": "Offensive Rebounding",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "OREB": "Offensive Rebounds",
+      "CONTESTED OREB": "Contested Offensive Rebounds",
+      "UNCONTESTED OREB": "Uncontested Offensive Rebounds",
+      "CONTESTED OREB%": "Contested Offensive Rebound Percentage",
+      "OREB CHANCES": "Offensive Rebound Chances",
+      "OREB CHANCE%": "Offensive Rebound Chance Percentage",
+      "DEFERRED OREB CHANCES": "Deferred Offensive Rebound Chances",
+      "ADJUSTED OREB CHANCE%": "Adjusted Offensive Rebound Chance Percentage",
+      "AVG OREB DISTANCE": "Average Offensive Rebound Distance"
+    }
+  },
+  "/teams/defensive-rebounding/": {
+    "name": "Defensive Rebounding",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "DREB": "Defensive Rebounds",
+      "CONTESTED DREB": "Contested Defensive Rebounds",
+      "UNCONTESTED DREB": "Uncontested Defensive Rebounds",
+      "CONTESTED DREB%": "Contested Defensive Rebound Percentage",
+      "DREB CHANCES": "Defensive Rebound Chances",
+      "DREB CHANCE%": "Defensive Rebound Chance Percentage",
+      "DEFERRED DREB CHANCES": "Deferred Defensive Rebound Chances",
+      "ADJUSTED DREB CHANCE%": "Adjusted Defensive Rebound Chance Percentage",
+      "AVG DREB DISTANCE": "Average Defensive Rebound Distance"
+    }
+  },
+  "/teams/shooting-efficiency/": {
+    "name": "Shooting Efficiency",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "PTS": "Points",
+      "DRIVE PTS": "Drive Points",
+      "DRIVE FG%": "Drive Field Goal Percentage",
+      "CATCH SHOOT PTS": "Catch Shoot Points",
+      "CATCH SHOOT FG%": "Catch Shoot Field Goal Percentage",
+      "PULL UP PTS": "Pull Up Points",
+      "PULL UP FG%": "Pull Up Field Goal Percentage",
+      "PAINT TOUCH PTS": "Paint Touch Points",
+      "PAINTN TOUCH FG%": "Paint Touch Field Goal Percentage",
+      "POST TOUCH PTS": "Post Touch Points",
+      "POST TOUCH FG%": "Post Touch Field Goal Percentage",
+      "ELBOW TOUCH PTS": "Elbow Touch Points",
+      "ELBOW TOUCH FG%": "Elbow Touch Field Goal Percentage",
+      "EFG%": "Effective Field Goal Percentage"
+    }
+  },
+  "/teams/speed-distance/": {
+    "name": "Speed \u0026 Distance",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "DIST. FEET": "Distance Feet",
+      "DIST. MILES": "Distance Miles",
+      "DIST. MILES OFF": "Distance Miles Offense",
+      "DIST. MILES DEF": "Distance Miles Defense",
+      "AVG SPEED": "Average Speed",
+      "AVG SPEED OFF": "Average Speed Offense",
+      "AVG SPEED DEF": "Average Speed Defense"
+    }
+  },
+  "/teams/elbow-touch/": {
+    "name": "Elbow Touches",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "TOUCHES": "Touches",
+      "ELBOW TOUCHES": "Elbow Touches",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "PTS": "Points",
+      "PTS%": "Points Percentage",
+      "PASS": "Pass",
+      "PASS%": "Pass Percentage",
+      "AST": "Assists",
+      "AST%": "Percent of Team's Assists",
+      "TO": "Turnovers",
+      "TOV%": "Percent of Team's Turnovers",
+      "PF": "Personal Fouls",
+      "PF%": "Percent of Team's Personal Fouls"
+    }
+  },
+  "/teams/post-touch/": {
+    "name": "Post Touches",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "TOUCHES": "Touches",
+      "POST TOUCHES": "Post Touches",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "PTS": "Points",
+      "PTS%": "Points Percentage",
+      "PASS": "Pass",
+      "PASS%": "Pass Percentage",
+      "AST": "Assists",
+      "AST%": "Percent of Team's Assists",
+      "TO": "Turnovers",
+      "TOV%": "Percent of Team's Turnovers",
+      "PF": "Personal Fouls",
+      "PF%": "Percent of Team's Personal Fouls"
+    }
+  },
+  "/teams/paint-touch/": {
+    "name": "Paint Touches",
+    "desc": {
+      "GP": "Games Played",
+      "W": "Wins",
+      "L": "Losses",
+      "MIN": "Minutes",
+      "TOUCHES": "Touches",
+      "PAINT TOUCHES": "Paint Touches",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage",
+      "FTM": "Free Throws Made",
+      "FTA": "Free Throws Attempted",
+      "FT%": "Free Throw Percentage",
+      "PTS": "Points",
+      "PTS%": "Points Percentage",
+      "PASS": "Pass",
+      "PASS%": "Pass Percentage",
+      "AST": "Assists",
+      "AST%": "Percent of Team's Assists",
+      "TO": "Turnovers",
+      "TOV%": "Percent of Team's Turnovers",
+      "PF": "Personal Fouls",
+      "PF%": "Percent of Team's Personal Fouls"
+    }
+  },
+  "/teams/shots-general/": {
+    "name": "Shots By General Range",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/shots-shotclock/": {
+    "name": "Shots By Shotclock",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/shots-dribbles/": {
+    "name": "Shots By Dribbles",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/shots-touch-time/": {
+    "name": "Shots By Touch Time",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/shots-closest-defender/": {
+    "name": "Shots By Closest Defender",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/shots-closest-defender-10/": {
+    "name": "Shots By Closest Defender (+10 FT)",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/shooting/": {
+    "name": "Shooting",
+    "desc": {
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attempted",
+      "FG%": "Field Goal Percentage"
+    }
+  },
+  "/teams/opponent-shots-general/": {
+    "name": "Opponent Shots By General Range",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/opponent-shots-shotclock/": {
+    "name": "Opponent Shots By Shotclock",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/opponent-shots-dribbles/": {
+    "name": "Opponent Shots By Dribbles",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/opponent-shots-touch-time/": {
+    "name": "Opponent Shots By Touch Time",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/opponent-shots-closest-defender/": {
+    "name": "Opponent Shots By Closest Defender",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  },
+  "/teams/opponent-shots-closest-defender-10/": {
+    "name": "Opponent Shots By Closest Defender (+10 FT)",
+    "desc": {
+      "GP": "Games Played",
+      "G": "Games",
+      "Freq": "Frequency",
+      "FGM": "Field Goals Made",
+      "FGA": "Field Goals Attemped",
+      "FG%": "Field Goal Percentage",
+      "eFG%": "Effective Field Goal Percentage",
+      "2FG Freq": "Frequency",
+      "2FGM": "Two Point Field Goals Made",
+      "2FGA": "Two Point Field Goals Attempted",
+      "2FG%": "Two Point Field Goal Percentage",
+      "3FG Freq": "Frequency",
+      "3PM": "3 Pointers Made",
+      "3PA": "3 Pointers Attempted",
+      "3P%": "3 Pointers Percentage"
+    }
+  }
+}
