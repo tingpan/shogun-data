@@ -4,7 +4,41 @@ Datasets used in shogun project
 
 ## Description
 
-The data used in this project is from NBA [official stats website](http://stats.nba.com/players/). `description.json` contains description of every field in dataset. These data include both player stats and team stats, and both of them have plenty of categories, which is list below. These are sub path of http://stats.nba.com/, so you could view the web version of stats by visiting the url. Team stats structure are same with player stats. The only difference is team stats path start with 'team' while player stats path with 'player'
+The data used in this project is from NBA [official stats website](http://stats.nba.com/players/). `description.json` contains description of every field in dataset. These data include both player stats and team stats, and both of them have plenty of categories, which is list in Categories section.
+
+## Sample data
+
+Sample data is placed in `./data` directory and the structure of dir is:
+
+```
+- data
+    - dashboard
+        - 2015-16(season name)
+            - 2015-16_defense_dashboard.json()
+            - 2015-16_general_dashboard.json
+            - 2015-16_play_types_dashboard.json
+            - 2015-16_shot_dashboard.json
+    - gamelog.json
+```
+These dashboard file have same structure:
+
+```json
+{
+    "PlayerID":
+        {
+            "Category": {
+                "SubCategory": {
+                    "Sub..SubCategory":"value"
+                }
+            }
+        }
+
+}
+```
+* `2015-16_defense_dashboard.json` contains all defense associated stats
+## Categories
+
+These are sub path of http://stats.nba.com/, so you could view the web version of stats by visiting the url. Team stats structure are same with player stats. The only difference is team stats path start with 'team' while player stats path with 'player'
 
 * /players/traditional/
     * Traditional basic stats of players, such as points, assists and rebounds. They are the most widely used stats but cannot show limited view of players' ability.
