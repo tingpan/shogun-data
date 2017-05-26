@@ -62,56 +62,79 @@ The `gamelog.json` shows team stats of every game:
 ## Categories
 
 Each categories has a detailed page on the official website and can be visited in the link http://stats.nba.com/CATEGOR_NAME
-Team stats structure is the same with player stats. The only difference is team stats path start with 'team' while player stats path with 'player'. Category data file and key will be list after the path.
+Team stats structure is the same as player stats. The only difference is team stats path start with 'team' while player stats path with 'player'. The corresponding data file and the field of each Category is listed below.
 
-* /players/traditional/ `2015-16_general_dashboard.json` GeneralStatsPerGame Base
+* /players/traditional/ 
+	* Filed in: `2015-16_general_dashboard.json` > GeneralStatsPerGame > Base
 	* Traditional basic stats of players, such as points, assists, and rebounds.
-* /players/advanced/ `2015-16_general_dashboard.json` GeneralStatsPerGame Advanced
+
+* /players/advanced/  
+	* Filed in: `2015-16_general_dashboard.json` > GeneralStatsPerGame > Advanced
 	* Advanced stats of players, which gives a more comprehensive view of players' ability. For example, Traditional Stats may not indicate if a player is a good scorer, but True Shooting Percentage of Advanced Stats could.
-* /players/misc/ `2015-16_general_dashboard.json` GeneralStatsPerGame Misc
+
+* /players/misc/ 
+	* Filed in: `2015-16_general_dashboard.json` > GeneralStatsPerGame > Misc	
 	* Some miscellaneous stats.
-* /players/scoring/ `2015-16_general_dashboard.json` GeneralStatsPerGame Scoring
+
+* /players/scoring/ 
+	* Filed in: `2015-16_general_dashboard.json` > GeneralStatsPerGame > Scoring
 	* Stats that measure players' scoring efficiency.
-* /players/usage/ `2015-16_general_dashboard.json` GeneralStatsPerGame Usage
+
+* /players/usage/ 
+	* Filed in: `2015-16_general_dashboard.json` > GeneralStatsPerGame > Usage
 	* Stats that show how much time one player is controlling the ball.
-* /players/defense/ `2015-16_general_dashboard.json` TrackingStatsPerGame Defense
+
+* /players/defense/ 
+	*  Filed in: `2015-16_general_dashboard.json` > TrackingStatsPerGame > Defense
 	* Stats that measure players' defense efficiency.
-* Detailed defense stats of the players in different areas(in `2015-16_defense_dashboard.json`)
-	* /players/defense-dash-overall/ Overall
-	* /players/defense-dash-3pt/ 3 Pointers
-	* /players/defense-dash-2pt/ 2 Pointers
-	* /players/defense-dash-lt6/ Less Than 6Ft
-	* /players/defense-dash-lt10/ Less Than 10Ft
-	* /players/defense-dash-gt15/ Greater Than 15Ft
-* Play Type Statistics go beyond the play-by-play section of the box score and break down what happened on each play to produce the end result. This shows the frequency and efficiency of player when performing each play type. `2015-16_play_types_dashboard.json`
-	* /players/isolation/ Isolation
-	* /players/transition/ Transition
-	* /players/ball-handler/ PRBallHandler
-	* /players/roll-man/ PRRollman
-	* /players/post-up/ Postup
-	* /players/spot-up/ Spotup
-	* /players/hand-off/ Handoff
-	* /players/cut/ Cut
-	* /players/off-screen/ OffScreen
-	* /players/putbacks/ OffRebound
-	* /players/playtype-misc/ Misc
-* Some detailed advanced stats that shows different aspects of abilities of players. `2015-16_general_dashboard.json` TrackingStatsPerGame
-	* /players/catch-shoot/ CatchShoot
-	* /players/defensive-impact/ Defense
-	* /players/drives/ Drives
-	* /players/passing/ Passing
-	* /players/pullup/ PullUpShot
-    * /players/shooting-efficiency/ Efficiency
-	* /players/speed-distance/ SpeedDistance
-	* /players/elbow-touch/ ElbowTouch
-	* /players/post-touch/ PostTouch
-	* /players/paint-touch/ PaintTouch
-* Rebounding performance of player: `2015-16_general_dashboard.json` TrackingStatsPerGame
-	* /players/rebounding/ Rebounding
-* Player shooting frequency and efficiency stats. `2015-16_shot_dashboard.json`
-	* /players/shots-general/ GeneralRange
-	* /players/shots-shotclock/ ShotClockRange
-	* /players/shots-dribbles/ DribbleRange
-	* /players/shots-touch-time/ ClosestDefenderRange
-	* /players/shots-closest-defender/ ClosestDefender10ftPlusRange
-	* /players/shots-closest-defender-10/ TouchTimeRange
+	
+* /players/rebounding/  
+	* Filed in: `2015-16_general_dashboard.json` > TrackingStatsPerGame
+	*  Rebounding performance of player.
+	
+* Detailed defense stats of the players in different areas
+	* Filed in: `2015-16_defense_dashboard.json`
+	* /players/defense-dash-overall/: Overall
+	* /players/defense-dash-3pt/: 3 Pointers
+	* /players/defense-dash-2pt/: 2 Pointers
+	* /players/defense-dash-lt6/: Less Than 6Ft
+	* /players/defense-dash-lt10/: Less Than 10Ft
+	* /players/defense-dash-gt15/: Greater Than 15Ft
+
+* Play Type Statistics go beyond the play-by-play section of the box score and break down what happened on each play to produce the end result. This shows the frequency and efficiency of player when performing each play type. 
+	* Filed in: `2015-16_play_types_dashboard.json`
+	* /players/isolation/: Isolation
+	* /players/transition/: Transition
+	* /players/ball-handler/: PRBallHandler
+	* /players/roll-man/: PRRollman
+	* /players/post-up/: Postup
+	* /players/spot-up/: Spotup
+	* /players/hand-off/: Handoff
+	* /players/cut/: Cut
+	* /players/off-screen/: OffScreen
+	* /players/putbacks/: OffRebound
+	* /players/playtype-misc/: Misc
+	
+* Some detailed advanced stats that shows different aspects of abilities of players. 
+	* Filed in: `2015-16_general_dashboard.json` > TrackingStatsPerGame
+	* /players/catch-shoot/: CatchShoot
+	* /players/defensive-impact/: Defense
+	* /players/drives/: Drives
+	* /players/passing/: Passing
+	* /players/pullup/: PullUpShot
+    * /players/shooting-efficiency/: Efficiency
+	* /players/speed-distance/: SpeedDistance
+	* /players/elbow-touch/: ElbowTouch
+	* /players/post-touch/: PostTouch
+	* /players/paint-touch/: PaintTouch
+	
+
+	
+* Player shooting frequency and efficiency stats. 
+	* Filed in: `2015-16_shot_dashboard.json`
+	* /players/shots-general/: GeneralRange
+	* /players/shots-shotclock/: ShotClockRange
+	* /players/shots-dribbles/: DribbleRange
+	* /players/shots-touch-time/: ClosestDefenderRange
+	* /players/shots-closest-defender/: ClosestDefender10ftPlusRange
+	* /players/shots-closest-defender-10/: TouchTimeRange
