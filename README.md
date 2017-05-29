@@ -59,6 +59,31 @@ The `gamelog.json` shows team stats of every game:
 }
 ```
 
+## Play Type Stats(Most important stats in this project)
+
+According to NBA.com, Play Type Statistics go beyond the play-by-play section of the box score and break down what happened on each play to produce the end result. Synergy Sports catalogs all of the action that takes place in each play of each game to provide a comprehensive look at how players and teams execute on offense and defense.
+
+For each play type, the two most crucial pieces of information are:
+
+* Frequency (Volume) - Percentage of times the given play type is executed
+* Percentile (Efficiency) - PPP(Points per possession) ranked against the rest of the league
+
+There are 10 different play types(another one is miscellaneous):
+
+* Transition: When the possession-ending event comes before the defense sets following a possession change and a transition from one end of the court to the other.
+* Isolation: When the possession-ending event is created during a “one-on-one” matchup. The defender needs to be set and have all of his defensive options at the initiation of the play.
+* Pick & Roll: Ball Handler: A screen is set on the ball handler’s defender out on the perimeter. The offensive player can use the screen or go away from it and as long as the play yields a possession-ending event, it is tagged as a pick and roll.
+* Pick & Roll: Roll Man: When a screen is set for the ball handler, and the screen setter then receives the ball for a possession-ending event. This action can include: pick and rolls, pick and pops and the screener slipping the pick.
+* Post-Up: When an offensive player receives the ball with their back to the basket and is less than 15' from the rim when the possession-ending event occurs.
+* Spot-Up: When the possession-ending event is a catch-and-shoot or catch-and-drive play.
+* Hand-Off: The screen setter starts with the ball and hands the ball to a player cutting close by. This enables the player handing the ball off to effectively screen off a defender creating space for the player receiving the ball.
+* Cut: An interior play where the finisher catches a pass while moving toward, parallel to or slightly away from the basket. This will include back screen and flash cuts as well as times when the player is left open near the basket.
+* Off Screen: Identifies players coming off of screens (typically downs screens) going away from the basket toward the perimeter. This includes curl, fades, and coming off straight.
+* Rebound (Putbacks): When the rebounder attempts to score before passing the ball or establishing themselves in another play type.
+* Miscellaneous: When the action doesn't fit any of the other play types. This includes, but is not limited to, last second full court shots, fouls in the backcourt, or errant passes not out of a different play type, etc.
+
+More description TBD
+
 ## Categories
 
 Each categories has a detailed page on the official website and can be visited in the link http://stats.nba.com/CATEGOR_NAME
